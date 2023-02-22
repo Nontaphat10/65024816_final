@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div1">
+        <h1>Insert data</h1>
+        <label for="NameTxt">ชื่อ</label>
+        <input type="text" id ="NameTxt" onchange="TxtChanged()">
+        <h2></h2>
+        <label for="NameTxt">นามสกุล</label>
+        <input type="text" id ="NameTxt" onchange="TxtChanged()">
+        <h2></h2>
+        <label for="">เพศ</label>
+        <select name="" id="menu" onchange="SelectedMenu()">
+        <option value="ชาย">ชาย</option>
+        <option value="หญิง">หญิง</option>
+        </select>
+        <h2></h2>
+        <label for="">วันเกิด</label>
+        <input type="date">
+        <h2></h2>
+        <div class="button1">
+        <button onclick="Add()">Add</button>
+    </div>
+    </div>
+    
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
